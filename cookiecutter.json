@@ -1,4 +1,5 @@
 {
     "project_name": "Enter a name for your Django project: ",
-    "app_name": "Enter a name for your project's first app: "
+    "app_name": "Enter a name for your project's first app: ",
+    "db_name": ""
 }
