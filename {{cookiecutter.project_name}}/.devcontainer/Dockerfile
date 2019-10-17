@@ -9,6 +9,11 @@ FROM python:3
 ENV DEBIAN_FRONTEND=noninteractive
 
 ENV PYTHONUNBUFFERED 1
+RUN mkdir /{{cookiecutter.project_name}}
+WORKDIR /{{cookiecutter.project_name}}
+ADD requirements.txt dest /{{cookiecutter.project_name}}/
+RUN pip install -r requirements.txt
+ADD . /{{cookiecutter.project_name}}
 
 # This Dockerfile adds a non-root 'vscode' user with sudo access. However, for Linux,
 # this user's GID/UID must match your local user UID/GID to avoid permission issues
