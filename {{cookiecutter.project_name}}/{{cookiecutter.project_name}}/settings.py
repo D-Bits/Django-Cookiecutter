@@ -78,10 +78,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2', 
         'NAME': '{{cookiecutter.db_name}}',
-        'USER': os.getenv('POSTGRES_USER'),
+        'USER': os.getenv('PG_USER'),
         'PASSWORD': os.getenv('PG_PASS'),
-        'HOST': os.getenv('POSTGRES_HOST'),
-        'PORT': os.getenv('POSTGRES_PORT'),
+        'HOST': os.getenv('PG_HOST'),
+        'PORT': os.getenv('PG_PORT'),
     }
 }
 
