@@ -29,6 +29,7 @@ def add_app():
         input('App name cannot be null! Press enter to exit.')
 
     run(['py', 'manage.py', 'startapp', app_name])
+    
 
 # Initialize a git repo, add, and commit files
 def git():
