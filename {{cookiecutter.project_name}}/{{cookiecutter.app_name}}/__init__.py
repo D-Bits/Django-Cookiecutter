@@ -1,0 +1,1 @@
+# Denotes that this app (microservice) is a package

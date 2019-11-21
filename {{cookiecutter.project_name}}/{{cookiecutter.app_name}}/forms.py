@@ -1,5 +1,1 @@
-from django import forms 
-
-"""
-Form logic for {{cookiecutter.app_name}}
-"""
+from django import forms

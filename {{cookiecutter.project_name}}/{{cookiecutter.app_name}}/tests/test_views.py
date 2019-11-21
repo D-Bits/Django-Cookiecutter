@@ -1,4 +1,3 @@
 from django.test import TestCase
 
-
-# Tests for {{cookiecutter.app_name}} views
+# Create your view tests here.

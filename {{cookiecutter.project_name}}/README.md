@@ -1,2 +1,2 @@
 
-# About {{cookiecutter.project_name}}
+# About {{ cookiecutter.project_name }}
